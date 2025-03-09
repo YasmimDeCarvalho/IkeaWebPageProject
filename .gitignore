@@ -1,0 +1,7 @@
+/bin/
+/test-output/
+.classpath
+.settings/
+/target/
+/screenshots/
+/test-recordings/
