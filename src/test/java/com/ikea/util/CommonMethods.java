@@ -290,6 +290,24 @@ public class CommonMethods extends PageInitializer {
 		waitForClickability(element);
 		element.click();
 	}
+	
+	/**
+	 * This method will click using a List<WebElement> as parameter
+	 * @param listName
+	 * @param elementText
+	 */
+	 public static void click(List<WebElement> listName, String elementText) {
+
+	        for (WebElement item : listName) {  // Loop through the list of WebElements
+	            if (item.getText().equalsIgnoreCase(elementText)) {  // Match the text
+	                item.click();  // Click the element
+	                System.out.println("Clicked on: " + elementText);
+	                break;  // Exit loop after clicking
+	            }
+	        }
+	        System.out.println("Element with text '" + elementText + "' was clicked.");
+	    }
+
 
 	/**
 	 * This method will create and return a JavascriptExecutor object.
