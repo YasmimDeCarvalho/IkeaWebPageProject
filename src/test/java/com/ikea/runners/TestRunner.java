@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/features/",
 
 		// we can specify where the codes for the features are
-		glue = "com.neotech.steps",
+		glue = "com.ikea.steps",
 
 		// if this is set to true --> it only checks if the steps are glued (no
 		// functionality execution)
@@ -26,7 +26,7 @@ import io.cucumber.junit.CucumberOptions;
 		// we can define a tag or a combination of tags to run
 
 
-		tags = "@workWeek",
+		tags = "@BasicTask",
 
 
 		plugin = {
