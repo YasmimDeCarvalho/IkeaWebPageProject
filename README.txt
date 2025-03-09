@@ -1,4 +1,5 @@
-This project is for practicing framework development, creating branches, and automating a website. The IKEA website was chosen. In this demo project, three exercises will be accomplished.	* Basic Tasks
+This project is for practicing framework development, creating branches, and automating a website. The IKEA website was chosen. In this demo project, three exercises will be accomplished.	
+* Basic Tasks
 	- Open IKEA Homepage
 	- Write a Selenium script to launch the IKEA website and verify the title.
 	- Search for a Product
